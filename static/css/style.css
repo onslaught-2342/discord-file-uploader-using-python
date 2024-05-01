@@ -1,0 +1,88 @@
+body {
+  background: darkcyan !important;
+}
+.navbar-brand,
+.nav-link,
+.navbar-toggler-icon,
+.navbar-toggler,
+.my-4 {
+  color: white !important;
+}
+.glass-morphism {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border-radius: 15px;
+}
+
+.glass-input {
+  background: rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(5px);
+  border: none;
+  border-radius: 8px;
+  color: #fff; /* Changed text color to white */
+}
+
+.glass-input::placeholder {
+  color: #fff; /* Placeholder text color */
+}
+
+.glass-btn {
+  background: rgba(255, 255, 255, 0.1);
+  border: none;
+  border-radius: 8px;
+  color: #fff;
+}
+
+.glass-btn:hover {
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.glass-btn:active {
+  background: rgba(255, 255, 255, 0.3);
+  background-color: rgba(255, 255, 255, 0.3) !important;
+  border: none;
+}
+
+.glass-table {
+  background: rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(5px);
+  border-radius: 15px;
+  color: #000;
+}
+
+.table {
+  --bs-table-bg: rgb(255 255 255 / 3%);
+  border-color: rgb(255 255 255 / 0%);
+  --bs-table-color: white;
+  margin-bottom: 0;
+}
+
+.form-control {
+  background-color: rgba(255, 255, 255, 0.3) !important;
+  border: none;
+  color: white;
+}
+
+/* Style for placeholder text */
+.form-control::placeholder {
+  color: white;
+  opacity: 1; /* Full opacity for placeholder */
+}
+
+/* Style for the input field when it is in focus */
+.form-control:focus {
+  background-color: rgba(255, 255, 255, 0.3) !important;
+  border: none;
+  color: white;
+  outline: none; /* Optionally remove the outline on focus */
+}
+
+.filter-toggle {
+  cursor: pointer;
+}
+
+/* Custom CSS for fading out alerts */
+.alert-fading-out {
+  transition: opacity 0.5s linear;
+  opacity: 0;
+}
